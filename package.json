@@ -1,8 +1,8 @@
 {
+  "homepage": "https://OmkarNarvekar001.github.io/To-Do-List",
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OmkarNarvekar001.github.io/TO-DO-List",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
@@ -14,9 +14,9 @@
     "react-transition-group": "^4.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages-clean gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
