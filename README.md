@@ -18,4 +18,3 @@ npm run build
 
 npm run deploy
 
-## The published To-do App: https://omkarnarvekar001.github.io/To-Do-List/
